@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meilleur - Free Responsive Single Page BS3 Template</title>
+    <title> ООО «Ресурс-Логистика» </title>
     <!-- Stylesheets -->
     <link type="text/css" href="css/bootstrap.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,400italic,700,700italic,500italic,500,300italic,300'
@@ -13,6 +13,7 @@
     <link type="text/css" href="icons/rondo/style.css" rel="stylesheet">
     <link href="css/jquery.fancybox.css" rel="stylesheet" type="text/css" />
     <link type="text/css" href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 </head>
 <body >
     <header class="header" id="jump">
@@ -34,7 +35,7 @@
                         <li><a href="#jump3">Грузы</a></li>
                         <li><a href="#jump4">Партнёры</a></li>
                         <li><a href="#jump6">Оставить заявку</a></li>
-                        <li><a href="#jump5">Войти в портал</a></li>
+                        <li style="background-color: #919191;"><a style="color: #ffffff !important;" href="#jump5">Личный кабинет</a></li>
                     </ul>
                 </div>
                 <!-- /.navbar-collapse -->
@@ -52,8 +53,8 @@
                             Партнёры</a></li>
                         <li><a href="#jump6" data-toggle="collapse" data-target=".navbar-responsive-collapse">
                             Оставить заявку</a></li>
-                        <li><a href="#jump5" data-toggle="collapse" data-target=".navbar-responsive-collapse">
-                            Войти в портал</a></li>
+                        <li style="background-color: #919191;"><a style="color: #ffffff !important;" href="#jump5" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+                            Личный кабинет</a></li>
                     </ul>
                 </div>
                 <!-- /.navbar-responsive-collapse -->
@@ -75,7 +76,7 @@
                             <p>
                                 Грузоперевозки любого типа по РФ и СНГ</p>
                         </div>
-                        <div style="text-align: center;"><a href="#jump2" class="btn btn-outline btn-lg">Мы на карте </a>&nbsp; 
+                        <div style="text-align: center;"><a href="#jump2" class="btn btn-outline btn-lg">Мы на карте </a>&nbsp;
                         <a href="#jump6" class="btn btn-outline btn-lg">Оставить заявку </a></div>
                     </div>
                 </div>
@@ -105,9 +106,9 @@
                 <h3>Транспортные услуги</h3>
                 <p>Мы осуществляем перевозки по всей территории РФ.</p>
             </div>
-            <div class="col-md-4"> 
+            <div class="col-md-4">
               <img src="img/services/3.jpg" class="img-circle" height="" alt="" /> <br>
-              <h3>Хранение груза</h3> 
+              <h3>Хранение груза</h3>
               <p>Мы готовы разместить вашу продукцию на хранение.</p>
           </div>
       </div>
@@ -144,9 +145,9 @@
                     <img src="img/services/5.jpg" class="img-circle" height="" alt="" /> <br>
                     <h3>Продукты питания</h3>
                 </div>
-                <div class="col-md-3"> 
+                <div class="col-md-3">
                   <img src="img/services/6.jpg" class="img-circle" height="" alt="" /> <br>
-                  <h3>Спецтехника</h3> 
+                  <h3>Спецтехника</h3>
               </div>
               <div class="col-md-3">
                 <img src="img/services/7.jpg" class="img-circle" height="" alt="" /> <br>
@@ -283,40 +284,59 @@
     </div>
     <div class="section type-1 section-contact">
         <div class="container">
-            <div class="section-headlines">
+            <div class="section-headlines" style="margin-bottom: 0px;">
                 <h4>
-                Оставить заявку</h2>
-                <h2>
-                Оставьте заявку чтобы связаться с нами!</h2>
+                Оставить заявку</h4>
+<!--                <h2>-->
+<!--                Оставьте заявку чтобы связаться с нами!</h2>-->
             </div>
             <form>
                 <div class="row">
-                    <div class="col-md-12">
-                        <form role="form" method="post" action="#" id="contactform">
-                            <div class="form-group">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <input type="text" class="form-control" id="name" name="name" placeholder="Введите Ваше имя"><br/>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <input type="text" class="form-control" id="email" name="email" placeholder="Оставьте Вашу электронную почту"></div>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="subject" name="subject" placeholder="Введите Ваш номер телефона">
-                                </div>
-                                <div class="form-group">
-                                    <textarea class="form-control" id="message" name="message" rows="8"></textarea>
-                                </div>
-                                <button id="button-send" class="btn btn-block btn-success">
-                                    Отправить заявку
-                                </button>
-                                <div id="success">
-                                Ваша заявка успешно отправлена!</div>
-                                <div id="error">
-                                Отправить заявку не получилось, попробуйте позже.</div>
-                            </form>
+                    <div class="col-md-6 send">
+<!--                        <form role="form" method="post" action="#" id="contactform">-->
+<!--                            <div class="form-group">-->
+<!--                                <div class="row">-->
+<!--                                    <div class="col-md-6">-->
+<!--                                        <input type="text" class="form-control" id="name" name="name" placeholder="Введите Ваше имя"><br/>-->
+<!--                                    </div>-->
+<!--                                    <div class="col-md-6">-->
+<!--                                        <input type="text" class="form-control" id="email" name="email" placeholder="Оставьте Вашу электронную почту"></div>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                                <div class="form-group">-->
+<!--                                    <input type="text" class="form-control" id="subject" name="subject" placeholder="Введите Ваш номер телефона">-->
+<!--                                </div>-->
+<!--                                <div class="form-group">-->
+<!--                                    <textarea class="form-control" id="message" name="message" rows="8"></textarea>-->
+<!--                                </div>-->
+<!--                                <button id="button-send" class="btn btn-block btn-success">-->
+<!--                                    Отправить заявку-->
+<!--                                </button>-->
+<!--                                <div id="success">-->
+<!--                                Ваша заявка успешно отправлена!</div>-->
+<!--                                <div id="error">-->
+<!--                                Отправить заявку не получилось, попробуйте позже.</div>-->
+<!--                            </form>-->
+                        <h1 style="text-align: center">Оставить заявку</h1>
+                        <div class="send2">
+                        <form id="application" action=" application.php" method="POST" name=" application ">
+                            <input name="name" id="applicationName" maxlength="20" placeholder="Введите ваше имя" required />
+                            <input name="email" type="email" id="applicationEmail" maxlength="20" placeholder="Введите ваш E-mail" required />
+                            <input name="telephone" type="Tel" id="applicationTelephone" maxlength="20" placeholder="Введите ваш телефон" required/>
+                            <button class="applicationButton" type="submit" form="application">Отправить </button>
+                        </form>
                         </div>
+                        </div>
+                    <div class="col-md-6 contact" >
+                        <h1 style="text-align: center">Наши контакты</h1>
+                        <div class="contact2">
+                            <p><i class="fas fa-phone"></i>Номер телефона: <span>79123456789</span></p>
+                        <p><i class="fas fa-envelope"></i>Электронная почта: <span> res@yandex.ru</span></p>
+                        <p><i class="fas fa-map-marker-alt"></i>Наш адрес: <span> ул. 40 Лет Победы, 65</span></p>
+                        <p><i class="fab fa-vk"></i>Группа ВКонтакте: <span><a href="https://vk.com">Ресурс-Логистика </a> </span></p>
+                        <p><i class="fab fa-instagram"></i>Инстаграм: <span> <a href="https://instagram.com">Ресурс-Логистика </a></span></p>
+                        </div>
+                    </div>
                     </div>
                 </form>
             </div>

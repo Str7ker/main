@@ -4,6 +4,108 @@
 .uslugi h3 {
   padding: 5px 0;
 }
+div .contact {
+  color: white;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 40px 10px;
+  padding: 10px;
+  margin-top: 30px;
+}
+div .send {
+  color: white;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 10px 40px;
+  padding: 10px;
+  margin-top: 30px;
+}
+div .send2 {
+  font-size: 16px;
+  padding: 8px;
+  text-align: center;
+}
+div .contact2 {
+  padding: 20px;
+  font-size: 16px;
+}
+div .contact2 i{
+  padding-right: 10px;
+}
+div .contact2 span {
+  color: #F19234;
+}
+div .contact2 a {
+  color: #F19234;
+}
+
+/* Стили формы */
+#application {
+  width: 475px;
+  margin: 0 auto;
+}
+
+/*Стили полей для ввода*/
+#applicationName, #applicationEmail, #applicationTelephone {
+  width: 61%;
+  height: 40px;
+  background: none;
+  margin-top: 7px;
+  border: 1px solid #fff;
+  border-radius: 40px;
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+}
+/*Стили полей при клике по ним*/
+#applicationName:focus, #applicationEmail:focus, #applicationTelephone:focus {
+  border: 1px solid #30ad64;
+}
+
+/*Стили текста, выводящегося в placeholder*/
+::-webkit-input-placeholder {
+  color: #efefef;
+  font-family: 'PT Sans', sans-serif;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+}
+
+::-moz-placeholder  {
+  color: #fff;
+  font-family: 'PT Sans', sans-serif;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+}  /* Firefox 19+ */
+
+:-moz-placeholder {
+  color: #fff;
+  font-family: 'PT Sans', sans-serif;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+}  /* Firefox 18- */
+
+:-ms-input-placeholder {
+  color: #fff;
+  font-family: 'PT Sans', sans-serif;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+}
+
+::placeholder {
+  color: #fff;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+}
+.applicationButton {
+  margin-top: 8px;
+  background: #30ad64;
+  border: none;
+  width: 61%;
+  height: 36px;
+  border-radius: 40px;
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: 'PT Sans', sans-serif;
+  cursor: pointer;
+  transition: .6s;
+}
+.applicationButton:hover {
+  background: #d68c18;
+}
 /*!
  * Bootstrap v3.0.0
  *
@@ -529,10 +631,10 @@ dd {
   .dl-horizontal dd:after {
     content: " ";
     /* 1 */
-  
+
     display: table;
     /* 2 */
-  
+
   }
   .dl-horizontal dd:after {
     clear: both;
@@ -541,10 +643,10 @@ dd {
   .dl-horizontal dd:after {
     content: " ";
     /* 1 */
-  
+
     display: table;
     /* 2 */
-  
+
   }
   .dl-horizontal dd:after {
     clear: both;
